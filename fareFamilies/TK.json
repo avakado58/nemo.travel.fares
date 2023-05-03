@@ -353,6 +353,50 @@
   },
   {
     "owner": "TK",
+    "baseClass": "business",
+    "priority": 0,
+    "tariffCodePattern": "^.*(DY(OW|RT))|(ZY.*).*$",
+    "parameters": [
+      {
+        "code": "description",
+        "shortDescription": {
+          "ru": "Бизнес",
+          "en": "Business"
+        },
+        "fullDescription": {
+          "ru": "",
+          "en": ""
+        },
+        "needToPay": null
+      },
+      {
+        "code": "refundable",
+        "shortDescription": {
+          "ru": "Возврат билета",
+          "en": "Refund"
+        },
+        "fullDescription": {
+          "ru": "Возврат билета разрешен со сбором",
+          "en": "Refund is allowed with penalty"
+        },
+        "needToPay": "charge"
+      },
+      {
+        "code": "baggage",
+        "shortDescription": {
+          "ru": "2 места",
+          "en": "2 items"
+        },
+        "fullDescription": {
+          "ru": "2 места",
+          "en": "2 items"
+        },
+        "needToPay": "charge"
+      }
+    ]
+  },
+  {
+    "owner": "TK",
     "baseClass": "economy",
     "priority": 1,
     "tariffCodePattern": "^(EcoFly)$|^\\w*(CL)\\w*$",
