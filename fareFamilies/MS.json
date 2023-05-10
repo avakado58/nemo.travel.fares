@@ -40,6 +40,18 @@
                     "en": "Exchange before departure is allowed with a charge"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Количество мест багажа уточняйте у оператора",
+                    "en": "Specify the number of pieces of baggage with the operator"
+                },
+                "fullDescription": {
+                  "ru": "",
+                  "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -84,6 +96,18 @@
                     "en": "Exchange before departure is allowed with a charge"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Количество мест багажа уточняйте у оператора",
+                    "en": "Specify the number of pieces of baggage with the operator"
+                },
+                "fullDescription": {
+                  "ru": "",
+                  "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -128,6 +152,18 @@
                     "en": "Exchange before departure is allowed with a charge"
                 },
                 "needToPay": "charge"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Количество мест багажа уточняйте у оператора",
+                    "en": "Specify the number of pieces of baggage with the operator"
+                },
+                "fullDescription": {
+                  "ru": "",
+                  "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -172,6 +208,18 @@
                     "en": "Exchange before departure is allowed without penalty"
                 },
                 "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Количество мест багажа уточняйте у оператора",
+                    "en": "Specify the number of pieces of baggage with the operator"
+                },
+                "fullDescription": {
+                  "ru": "",
+                  "en": ""
+                },
+                "needToPay": "free"
             }
         ]
     },
@@ -214,6 +262,18 @@
                 "fullDescription": {
                     "ru": "Обмен до вылета разрешен без сборов",
                     "en": "Exchange before departure is allowed without penalty"
+                },
+                "needToPay": "free"
+            },
+            {
+                "code": "baggage",
+                "shortDescription": {
+                    "ru": "Количество мест багажа уточняйте у оператора",
+                    "en": "Specify the number of pieces of baggage with the operator"
+                },
+                "fullDescription": {
+                  "ru": "",
+                  "en": ""
                 },
                 "needToPay": "free"
             }
